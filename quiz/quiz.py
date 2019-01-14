@@ -16,7 +16,7 @@ def add_question():
     
     file = open("questions.txt", "a")
     file.write(question + "\n")
-    file.write(answer) + "\n"
+    file.write(answer + "\n")
     file.close()
     
 def game_loop():
